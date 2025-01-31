@@ -1,0 +1,149 @@
+:root {
+  --bg-color: black
+  --accent-color: #E0474A
+  --text-color: #F3F3F3
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.interface {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.header img {
+  height: 32px;
+}
+
+.menu {
+  display: none;
+}
+
+.header .menu nav ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.header .menu nav ul li a{
+  font-size: 13px;
+  font-weight: 600;
+  color: #F3F3F3;
+  transition: .2s;
+}
+
+.header .menu nav ul li a:hover {
+  color: #E0474A;
+}
+
+.header .menu nav ul li a.download-btn {
+  background-color: #F3F3F3;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: .4s;
+  display: inline-block;
+  transition: .3s;
+}
+
+.header .menu nav ul li a.download-btn:hover {
+  background-color: #E0474A;
+  color: #F3F3F3;
+  transform: scale(1.1);
+}
+
+.menu-mobile {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 25px 4%;
+}
+
+.menu-mobile i {
+  font-size: 18px;
+  color: #E0474A;
+}
+
+.menu-mobile nav {
+  margin-top: 35px;
+}
+
+.menu-mobile nav ul li {
+  margin-bottom: 30px;
+}
+
+.menu-mobile nav ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color:  #8e8e8e;
+  transition: .2s;
+}
+
+.menu-mobile nav ul li a:hover {
+  color: #F3F3F3;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.intro-div{
+  color: #F3F3F3;
+  max-width: 550px;
+} 
+
+.intro-div h3 {
+  font-weight: 500;
+  color: #F3F3F3;
+  margin-bottom: 3px;
+}
+
+.intro-div h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 3px;
+}
+
+.intro-div h2 {
+  font-weight: 600;
+  color: #8e8e8e;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.intro-div p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+  color: #8e8e8e;
+  max-width: 380px;
+}
